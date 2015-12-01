@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.passjava.view.CodeEditor">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+      <maximumSize width="2147483647" height="200"/>
+      <opaque value="true"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <scrollpane id="43624">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <maximumSize width="32767" height="200"/>
+          <minimumSize width="21" height="100"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="169bc" class="javax.swing.JEditorPane" binding="codeArea">
+            <constraints/>
+            <properties>
+              <maximumSize width="2147483647" height="200"/>
+              <minimumSize width="10" height="100"/>
+              <name value="codeArea"/>
+              <opaque value="true"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+</form>
